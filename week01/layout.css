@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header,
+footer {
+  background-color: #333333;
+}
+
+header {
+  height: 20%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #000000;
+  height: 10%;
+}
+
+.main-body {
+  display: grid;
+  height: 40%;
+}
+
+main {
+  background-color: #cccccc;
+  grid-column: 1/4;
+}
+aside {
+  grid-column: 4/5;
+}
+
+footer {
+  height: 30%;
+}
