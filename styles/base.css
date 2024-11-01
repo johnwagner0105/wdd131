@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: "Itim", Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 body {
@@ -23,6 +31,16 @@ header nav {
   background-color: #333333;
   height: 8vh;
   align-items: center;
+}
+
+nav a {
+  height: 100%;
+  align-self: center;
+  padding-top: 2vh;
+}
+
+nav a:hover {
+  background-color: antiquewhite;
 }
 
 main {
