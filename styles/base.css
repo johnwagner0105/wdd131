@@ -37,10 +37,12 @@ nav a {
   height: 100%;
   align-self: center;
   padding-top: 2vh;
+  color: #fff;
 }
 
 nav a:hover {
   background-color: antiquewhite;
+  color: #000;
 }
 
 main {
@@ -57,6 +59,10 @@ main {
 
 .right {
   width: 70%;
+}
+
+.right p {
+  padding: 10px;
 }
 
 .left {
