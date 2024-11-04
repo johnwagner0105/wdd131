@@ -1,0 +1,33 @@
+@media only screen and (min-width: 600px) {
+  .temple-images {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    place-items: center;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .temple-images {
+    grid-template-columns: repeat(3, auto);
+  }
+  #navigation ul {
+    display: flex;
+    gap: 20px;
+  }
+  #navigation ul li {
+    display: block;
+  }
+  #navigation ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  #menu {
+    display: none;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+}
