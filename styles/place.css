@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --textfont: "Sour Gummy", sans-serif;
+  --wholebackground: #d21034;
 }
 
 * {
@@ -9,7 +10,7 @@
   box-sizing: border-box;
 }
 html {
-  background-color: #d21034;
+  background-color: var(--wholebackground);
 }
 header {
   text-align: center;
@@ -27,7 +28,7 @@ h1 {
   background-color: #007849;
 }
 picture {
-  background-color: #d21034;
+  background-color: var(--wholebackground);
 }
 img {
   padding-top: 10px;
