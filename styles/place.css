@@ -16,7 +16,7 @@ header {
 }
 h1,
 h2 {
-  font: var(--textfont);
+  font-family: var(--textfont);
 }
 h1 {
   padding: 20px;
