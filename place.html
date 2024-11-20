@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Week 3 assignment">
+    <meta name="author" content="John Wagner">
+    <title>Where do I come from?</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Itim&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Peru</h1>
+    </header>
+    <main>
+        <div class="images">
+            <picture>
+                <source media="(min-width:450px)" srcset="images/MachuPicchuBig.webp">
+                <img src="images/MachuPicchu.webp" alt="Machu Picchu">
+            </picture>
+        </div>
+        <div class="data">
+            <h2>Data</h2>
+            <p><b>Area: 1 285 2153​ km²</b></p>
+            <p><b>Population: 34 068 259</b></p>
+            <p><b>Capital: Lima</b></p>
+            <p><b>Languages: Spanish</b></p>
+            <p><b>Currency: Sol</b></p>
+            <p><b>Time Zone: UTC-5</b></p>
+            <p><b>Calling Code: +51</b></p>
+            <p><b>Internet TLD: .pe</b></p>
+        </div>
+        <div class="weather">
+            <div class="title">
+                <h2>Weather</h2>
+                <!-- <img src="images/weather.svg" alt="weather icon"> -->
+            </div>
+
+            <p><b>Temperature: 9°C</b></p>
+            <p><b>Conditions: Sunny</b></p>
+            <p><b>Wind: 5 km/h</b></p>
+            <p><b>Wind Chill: <span id="windChill"></span></b></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 👀 John Wagner 👀 Peru</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
