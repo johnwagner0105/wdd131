@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #174e70;
+  text-align: center;
+}
+main {
+  display: flex;
+  background-color: #d5cdd5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.reviewMain {
+  display: block;
+}
+.name,
+.installation,
+.review,
+.username {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #174e70;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer p {
+  text-align: center;
+}

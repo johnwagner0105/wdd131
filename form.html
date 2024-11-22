@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <meta name="description" content="Week 5 assignments">
+    <meta name="author" content="John Wagner">
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <div class="name">
+                <label for="productSelection">Product Name</label>
+                <select id="productSelection" name="productSelection" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select>
+            </div>
+            <div class="rating">
+                <p>Overall Rating</p>
+                <div class="rating">
+                    <input type="radio" name="rating" id="radioOption1" value=1 required>
+                    <label for="radioOption1">☆</label>
+                    <input type="radio" name="rating" id="radioOption2" value=2 required>
+                    <label for="radioOption2">☆☆</label>
+                    <input type="radio" name="rating" id="radioOption3" value=3 required>
+                    <label for="radioOption3">☆☆☆</label>
+                    <input type="radio" name="rating" id="radioOption4" value=4 required>
+                    <label for="radioOption4">☆☆☆☆</label>
+                    <input type="radio" name="rating" id="radioOption5" value=5 required>
+                    <label for="radioOption5">☆☆☆☆☆</label>
+                </div>
+            </div>
+            <div class="installation">
+                <label for="dateInput">Date of Installation</label>
+                <input type="date" name="dateInput" id="dateInput" required>
+            </div>
+            <div class="features">
+                <p>Which features did you find usefult in the product? (Check all that apply)</p>
+                <div class="features">
+                    <div><input type="checkbox" name="feature1" id="feature1" value="Durability"> <label
+                            for="feature1">Durability</label></div>
+                    <div><input type="checkbox" name="feature2" id="feature2" value="Easy of Use"> <label
+                            for="feature2">Easy of Use</label> </div>
+                    <div><input type="checkbox" name="feature3" id="feature3" value="Performance"> <label
+                            for="feature3">Performance</label> </div>
+                    <div><input type="checkbox" name="feature4" id="feature4" value="Design"> <label
+                            for="feature4">Design</label> </div>
+                </div>
+            </div>
+            <div class="review">
+                <label for="userReview">Written Review (optional)</label>
+                <textarea name="userReview" id="userReview"></textarea>
+            </div>
+            <div class="username">
+                <label for="username">Your Name (optional)</label>
+                <input type="text" name="username" id="username">
+            </div>
+
+            <input type="submit" value="Post Review">
+
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 👀 John Wagner 👀 Peru</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
