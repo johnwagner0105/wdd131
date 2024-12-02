@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Final Project">
+    <meta name="author" content="John Wagner">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/project.js" defer></script>
+    <script src="scripts/cart.js" defer></script>
+</head>
+
+<body>
+    <header>
+
+        <img src="images/art.png" alt="Company Icon" width="50px" id="icon-image">
+        <div id="nav-options">
+            <a href="project-home.html">Home</a>
+            <a href="project-about.html">About Us</a>
+            <a href="project-products.html">Products</a>
+            <a href="project-cart.html">Cart</a>
+        </div>
+
+    </header>
+    <main>
+        <h1>Your Shopping Cart</h1>
+        <section id="cart-container">
+            <table id="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Image</th>
+                        <th>Price</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    <!-- Cart items will be dynamically populated here -->
+                </tbody>
+            </table>
+            <div id="cart-summary">
+                <p id="total-price">Total: $0.00</p>
+                <button id="checkout-button">Proceed to Checkout</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
